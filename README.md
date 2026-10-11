@@ -51,7 +51,7 @@
 
 | 분야 | 태그 |
 | --- | --- |
-| Programming Languages | Java, Python |
+| Programming Languages | Java, Python, JavaScript |
 | Frameworks | Spring Boot, Vue.js, FastAPI, JSP |
 | Database | MySQL, Oracle, Milvus |
 | AI/LLM | LLM, RAG, BGE-M3, LLMOps |
