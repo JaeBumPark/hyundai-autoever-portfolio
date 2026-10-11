@@ -3,7 +3,7 @@
 > 💡 늘 배우고자 하는 자세로 인생을 살아가는 박재범입니다.
 
 <p align="center">
-  <img src="./images/page-01.png" alt="프로필" width="600"/>
+  <img src="./images/profile.png" alt="프로필" width="240"/>
 </p>
 
 ---
@@ -62,8 +62,6 @@
 | Cloud Provisioner | AWS |
 | etc | Git, GitLab |
 
-![경력 및 기술 스택](./images/page-02.png)
-
 ---
 
 # Projects
@@ -83,7 +81,9 @@
 | 사용 기술 스택 | Java, Spring Boot, AWS Bedrock (Claude), Vue.js, MySQL |
 | 성과 및 결과 | - 상담 평가 처리 시간 약 13% 단축<br>- LLM이 도메인 기준(모범화법, 필수 키워드, 감점 요소)에 맞춰 일관된 품질의 평가를 제공하도록 프롬프트 최적화 완료<br>- 실서비스로 납품, 고객사 현업에서 활용 중 |
 
-![상담사 튜터 서비스 흐름](./images/page-03.png)
+**서비스 흐름**
+
+![상담사 튜터 서비스 흐름](./images/tutor_flow.png)
 
 ---
 
@@ -100,7 +100,9 @@
 | 사용 기술 스택 | Java, Spring Boot, JSP, MyBatis, LLM, LLMOps, MySQL |
 | 성과 및 결과 | - 수작업 중심의 회의록 작성 과정을 자동화하여 공무원 업무 부담 감소<br>- 6종 LLM을 자유롭게 전환, 폴백 가능한 확장 구조 확보<br>- 재사용 가능한 표준 LLM 호출 구조를 공통 모듈로 구현하여 후속 AI 프로젝트에 활용 가능한 자산 확보<br>- 실서비스로 납품, 고객사 현업에서 활용 중 |
 
-![회의록 자동화 서비스 흐름](./images/page-04.png)
+**서비스 흐름**
+
+![회의록 자동화 서비스 흐름](./images/meeting_flow.png)
 
 ---
 
@@ -117,7 +119,9 @@
 | 사용 기술 스택 | Python, FastAPI, Milvus, BGE-M3 |
 | 성과 및 결과 | - 신규 문서를 일관된 절차로 안정적으로 적재할 수 있는 표준 파이프라인 구축<br>- 다수 고객사 POC 성공적 완료 및 실서비스 확산<br>- 문서를 검색 가능한 지식으로 전환하는 RAG 파이프라인의 설계, 구현 역량 확보<br>- 회사 공통 RAG 솔루션의 핵심 컴포넌트로 자산화 |
 
-![RAG 서비스 흐름](./images/page-05.png)
+**서비스 흐름**
+
+![RAG 서비스 흐름](./images/rag_flow.png)
 
 ---
 
@@ -134,7 +138,9 @@
 | 사용 기술 스택 | Java, Spring Boot, Vue.js, LLM, RAG, MySQL |
 | 성과 및 결과 | - 상용 AI 솔루션 전반의 개발 경험 확보<br>- Front-end와 Back-end를 아우르는 풀스택 개발 역량 확보<br>- 후속 AI 프로젝트(회의록, 상담 튜터 등)에 공통 자산, 경험으로 이어짐 |
 
-![AI 챗봇 솔루션 서비스 흐름](./images/page-06.png)
+**서비스 흐름**
+
+![AI 챗봇 솔루션 서비스 흐름](./images/chatbot_flow.png)
 
 ---
 
@@ -153,7 +159,9 @@
 | 사용 기술 스택 | Kubernetes, Amazon EKS, GitLab CI/CD, Elasticsearch, Kibana, Prometheus, Grafana, Elastic APM |
 | 성과 및 결과 | - 수동 배포 부담 감소 및 배포 소요 시간 단축<br>- 애플리케이션 이상과 장애를 빠르게 파악할 수 있는 운영 체계 마련<br>- 운영 안정성까지 고려하는 개발 관점 확보 |
 
-![스패로우 CI/CD 및 모니터링 흐름](./images/page-07.png)
+**서비스 흐름**
+
+![스패로우 CI/CD 및 모니터링 흐름](./images/sparrow_flow.png)
 
 ---
 
@@ -173,38 +181,35 @@
 | 성과 및 결과 | - 다수의 팀원들과 협업하며 Team Project 진행 시 팀원 개인별 모듈화의 중요성과 효과적인 협업 방식을 깨달음<br>- Public Cloud 환경에서 Project를 진행하며 Cloud Provisioner AWS 환경과 AWS 내 서비스 이해도 상승<br>- CI/CD pipeline 구축 전략에 대해 고찰하며 프로젝트를 진행하여 Application Build 속도, Build 환경 보안 향상 등의 결과를 도출 |
 | 참고 자료 | - YouTube: https://www.youtube.com/watch?v=e50cfM8ad88<br>- GitHub: https://github.com/JaeBumPark/5KA_project_CICD |
 
-### Service 기능
+### CI/CD Pipeline 구축 전략
 
-![Service 기능 - 회원가입](./images/page-08.png)
+![CI/CD 파이프라인 전략](./images/cicd_strategy.png)
 
-![Service 기능 - Project 조회 및 Application 생성](./images/page-09.png)
+- **GitOps 방식으로 CI/CD pipeline 구축**: 애플리케이션의 배포와 운영에 관련된 모든 요소를 코드화하여 확장성, 안정성, 보안성을 보장하는 GitOps-based CI/CD pipeline 구축. Application Source code Repo와 Deployment code Repo로 애플리케이션/배포 manifest code를 나누어 Git 형상 관리
+- **Jenkins Master/Agent 분리**: Build 환경의 보안, Pipeline 병렬 실행 시 안정성 등의 이유로 Docker image build와 push가 일어나는 환경을 Central cluster에 Pod 형태로 구축하여 Jenkins Master와 Agent 실행 환경을 격리
+- **Docker build tool로 Kaniko 도입**: Build 속도 최적화를 위해 Agent Pod으로 Kaniko를 띄워 Build 진행. Image Build 시 Nexus Cache Repository를 참조하여 Build 속도를 향상시키도록 구현
 
-![Service 동작도](./images/page-10.png)
+### Service Architecture
 
-### CI/CD pipeline 구축 전략
+![Service Architecture](./images/service_architecture.png)
 
-![CI/CD 파이프라인 전략](./images/page-11.png)
+- 신입 개발자가 Application의 code를 변경 후 GitLab Application Source code repository에 push
+- Central Cluster의 Jenkins가 변경된 코드를 기반으로 Application Build 및 Dockerfile을 이용해 Docker Image Build
+- Docker Image를 Nexus repository에 push, Docker Image tag 기반으로 GitLab의 배포 환경 구성 저장소의 Deploy manifest file 변경
+- Central Cluster의 ArgoCD가 GitLab의 배포 환경 구성 저장소의 manifest를 참조해 새로 Push된 Docker Image 기반으로 Application을 K8s resource 형태로 deploy 준비
+- ArgoCD가 신입 개발자가 소속된 부서에게 제공된 Cluster 내에 Application을 배포
+- 리소스 Monitoring tools는 Central Cluster와 부서별 Cluster에 배포돼 있는 상태
 
-**2-1. GitOps 방식으로 CI/CD pipeline 구축**
-- 애플리케이션의 배포와 운영에 관련된 모든 요소를 코드화하여 확장성, 안정성, 보안성을 보장하는 GitOps-based CI/CD pipeline 구축
-- Application Source code Repo와 Deployment code Repo로 애플리케이션/배포 manifest code를 나누어 Git 형상 관리
+### Infra Architecture
 
-**2-2. Jenkins Master/Agent를 나누어 Jenkins job 실행**
-- Build 환경의 보안, Pipeline 병렬 실행 시 안정성 등의 이유로 Docker image build와 push가 일어나는 환경을 Central cluster에 Pod 형태로 구축하여 Jenkins Master와 Agent 실행 환경을 격리
+![Infra Architecture](./images/infra_architecture.png)
 
-**2-3. Docker build tool로 Kaniko를 도입**
-- Build 속도 최적화를 위해 Agent Pod으로 Kaniko를 띄워 Build를 진행
-- Image Build 시 Nexus Cache Repository를 참조하여 Build 속도를 향상시키도록 구현
-
-### Architecture
-
-**1. Service Architecture**
-
-![Service Architecture](./images/page-12.png)
-
-**2. Infra Architecture**
-
-![Infra Architecture](./images/page-13.png)
+- 보안상의 이유로 Public, Private, Intra Subnet을 구성
+- EKS Node group은 Private subnet에 배치 후 Public Subnet의 Bastion server로만 접속할 수 있도록 설정
+- RDS는 Intra Subnet에 배치 후 Back-end와 통신하도록 설정
+- Autoscaling을 통해 EKS의 Node 갯수를 관리
+- 개발한 서비스와 Opensource들은 Kubernetes ingress와 ALB, SSL, Route 53을 연동시켜 URL로 접근할 수 있도록 설정
+- Back-end, Front-end, Open-source 구동 시 사용되는 Docker image들은 ECR에 팀원들만 사용할 수 있도록 권한을 제어하여 관리
 
 ---
 
