@@ -216,6 +216,7 @@
 ## Prize
 
 - 🏆 **카카오 클라우드 엔지니어 양성 과정 최우수 프로젝트상** (카카오, 한국전파진흥협회, 2023.5)
+  - [📄 상장 보기](https://drive.google.com/file/d/19l7uue7WRibV2r0PhSWyYRc1Yy199bhj/view)
 
 ---
 
