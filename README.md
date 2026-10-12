@@ -53,7 +53,7 @@
 | --- | --- |
 | Programming Languages | Java, Python, JavaScript |
 | Frameworks | Spring Boot, Vue.js, FastAPI, JSP |
-| Database | MySQL, Oracle, Milvus |
+| Database | MySQL, PostgreSQL, Oracle, Milvus |
 | AI/LLM | LLM, RAG, BGE-M3, LLMOps |
 | OS | Mac, Windows, Linux (Ubuntu/CentOS) |
 | Virtualization | Docker, Kubernetes |
@@ -97,7 +97,7 @@
 | 서비스 대상 | - 사용자(회의 참석자): 회의 등록, 회의록 조회, 수정, 재요약 이용<br>- 관리자: LLM 모델, 프롬프트, 배치, 로그, 사용 내역 통합 관리 |
 | 프로젝트 목적 | 공공기관의 수기 회의록 작성 업무를 자동화하여 담당자 부담을 줄이고, 다양한 LLM(6종)을 전환, 폴백 가능한 확장 구조로 구축하며, LLMOps 플랫폼과 연동해 프롬프트, 모델 관리를 안정화하는 것을 목표로 진행 |
 | 주요업무 및 상세역할 | - Java 기반 LLM 호출 인터페이스 설계, 개발 및 다중 LLM(6종) 전환, 폴백 구조 구축<br>- STT 결과 오탈자, 맞춤법 후보정 및 청크 분리 요약 로직 구현<br>- 회의 요약, 파일 관리 배치 스케줄링 구현<br>- LLMOps 서비스 연동으로 LLM, 프롬프트 관리 체계 구축<br>- 사용자 화면 및 관리자 화면 개발 (JSP) |
-| 사용 기술 스택 | Java, Spring Boot, JSP, MyBatis, LLM, LLMOps, MySQL |
+| 사용 기술 스택 | Java, Spring Boot, JSP, MyBatis, LLM, LLMOps, PostgreSQL |
 | 성과 및 결과 | - 수작업 중심의 회의록 작성 과정을 자동화하여 공무원 업무 부담 감소<br>- 6종 LLM을 자유롭게 전환, 폴백 가능한 확장 구조 확보<br>- 재사용 가능한 표준 LLM 호출 구조를 공통 모듈로 구현하여 후속 AI 프로젝트에 활용 가능한 자산 확보<br>- 실서비스로 납품, 고객사 현업에서 활용 중 |
 
 **서비스 흐름**
